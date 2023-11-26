@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="upper">
+        <div class="logo">
+            <a href="#">
+                <!-- Logo -->
+                <img width="150px" src="/Projeler/Netflix Clone - Proje/img/netflix_logo.png" class="img-logo"/>
+            </a>
+        </div>
+        <!-- Login Ekran -->
+        <div class="login-div">
+            <form class="login">
+                <h1>Oturum Aç</h1>
+                <div class="input-text">
+                    <!-- Mail -->
+                    <input type="text" id="inputEmail" name="email" placeholder="E posta veya telefon numarası" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"/>
+                    <div class="warning-input" id="warningEmail">
+                        Lütfen geçerli bir telefon numarası veya e‑posta adresi girin.
+                    </div>
+                </div>
+                
+                <div class="input-text">
+                    <!-- Şifre -->
+                    <input type="password" id="inputPassword" name="password" placeholder="Parola" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"/>
+                    <div class="warning-input" id="warningPassword">
+                        Parolanız 4 ila 60 karakter olmalıdır.
+                    </div>
+                </div>
+                <!-- ************** NOT ************** -->
+                <!-- Oturum Açma Butonu alt çizgi kaldır ve renk beyaz yap . 
+                Beni hatırla gibi metinler arasında boşluk bırak-->
+                <!-- ********************************* -->
+                <div>
+                    <!-- Oturum Açma Butonu - Kullanıcılar Ekranına Yönlendirme -->
+                    <button class="signin-button"> <a href="users.html" class="text-decoration-none text-white"> Oturum Aç </a></button>
+                </div>
+                                <!-- Yardımcı Elementler -->
+                
+                <div class="remember-flex">
+                    <div>
+                        <input type="checkbox">
+                        <label class="color_text">Beni Hatırla</label>
+                    </div>
+                    <div class="help">
+                        <a class="color_text" href="#">Yardım ister misiniz ?</a>
+                    </div>
+                </div>
+                
+                <div class="new-members">
+                    Netflix'e katılmak ister misiniz ? <a href="#" class="signup-link"> Şimdi kaydolun.</a>.
+                </div>
+                <div class="protection color_link help">
+                    Bu sayfa robot olmadığınızı kanıtlamak için Google reCAPTCHA tarafından korunuyor.  <a href="#">Daha fazlasını öğrenin.</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="bottom">
+        <div class="bottom-width">
+            Sorularınız mı var?<a href="tel:0850-390-7444" class="tel-link"> 0850-390-7444 numaralı telefonu arayın.</a>
+            <div>
+                <ul class="bottom-flex">
+                    <li class="list-bottom">
+                        <a href="#" class="link-bottom">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="list-bottom">
+                        <a href="#" class="link-bottom">
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="list-bottom">
+                        <a href="#" class="link-bottom">
+                            Terms of Use
+                        </a>
+                    </li>
+                    <li class="list-bottom">
+                        <a href="#" class="link-bottom">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="list-bottom">
+                        <a href="#" class="link-bottom">
+                            Cookie Preferences
+                        </a>
+                    </li>
+                    <li class="list-bottom">
+                        <a href="#" class="link-bottom">
+                            Corporate information
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <!-- Dil Paketi (Seçenekler) -->
+                <select class="fa select-language">
+                    <option> İngilizce</option>
+                    <option> Neosca</option>
+                    <option> Türkçe</option>
+                    <option> Afganca</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
